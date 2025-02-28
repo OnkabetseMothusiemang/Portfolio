@@ -76,13 +76,15 @@
       <button class="btn btn-secondary mt-2" onclick="showProjects('ai')">AI Projects</button>
   </div>
 
+  const aiProjects = document.getElementById('ai-projects');
+
   <!-- Spacer between the AI section and Figma section -->
   <div class="col-sm-1"></div> <!-- This will create space between the two columns -->
 
   <!-- Image for Figma Projects -->
   <div class="col-sm-2 text-center d-flex flex-column align-items-center">
       <img src="Image/figma.jpg" alt="Figma" class="img-fluid" style="max-width: 200px; height: 200px;">
-      <button class="btn btn-secondary mt-2" onclick="showFigmaProjects()">Figma</button>
+      <button class="btn btn-secondary mt-2" onclick="showProjects('figma')">Figma</button>
   </div>
 </div>
 
@@ -149,7 +151,7 @@
 
 
     <!-- AI Projects Section -->
-    <div id="ai-projects" class="hidden-content">
+    <div id="ai-projects" class="hidden-content"> 
       <div class="row">
         <div class="col-sm-6">
           <div class="card boxx">
@@ -230,7 +232,7 @@
       }
     }
 
-
+    
   </script>
 </body>
 
