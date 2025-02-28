@@ -219,6 +219,7 @@
     function showProjects(type) {
       const softwareProjects = document.getElementById('software-projects');
       const aiProjects = document.getElementById('ai-projects');
+      const figmaProjects = document.getElementById('figma-projects');
 
       if (type === 'software') {
         softwareProjects.style.display = 'block';
@@ -229,16 +230,7 @@
       }
     }
 
-    function showFigmaProjects() {
-    var figmaProjects = document.getElementById('figma-projects');
-    
-    // Toggle visibility: if hidden, show; if shown, hide
-    if (figmaProjects.style.display === "none") {
-      figmaProjects.style.display = "block";
-    } else {
-      figmaProjects.style.display = "none";
-    }
-  }
+
   </script>
 </body>
 
